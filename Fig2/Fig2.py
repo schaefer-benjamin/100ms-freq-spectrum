@@ -1,18 +1,17 @@
 # Created by Leonardo Rydin Gorjão. Most python libraries are standard (e.g. via
-# Anaconda). If TeX is not present in the system comment out lines 20 to 23.
+# Anaconda). If TeX is not present in the system comment out lines 19 to 22.
 
 loc = 'data/'
 import sys
 sys.path.insert(0, loc)
 
 import numpy as np
-import pandas as pd
 from scipy.signal import welch, sosfilt
 
 # Note that these two packages are not standard installation and can be
 # complicated to install. They are only used to plot the map in subplot a. To
 # avoid overhead, avoid installing these, and comment the two lines below and
-# the lines that plot the map: Lines 81-82
+# the lines that plot the map: Lines 80-81
 import geopandas
 import geoplot
 
